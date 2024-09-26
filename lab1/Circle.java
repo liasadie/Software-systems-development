@@ -16,4 +16,12 @@ public class Circle extends Shape {
         int circleArea = (int)circleAreaDouble;
         return(circleArea);
     }
+    Circle(int radius){
+        super(1);
+        this.radius = radius;
+    }
+    public String toString(){
+        return "Circle: radius=" + radius + ", area=" + getArea() + ", sides=" + getSides() + ".";
+    }
+
 }
