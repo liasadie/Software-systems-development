@@ -35,6 +35,6 @@ public class Rectangle extends Shape
         this.widths = widths;
     }
     public String toString(){
-        return "Rectangle: width=" + widths + ", height=" + heights + ", area=" + getArea()
+        return "Rectangle: width=" + widths + ", height=" + heights + ", area=" + getArea();
     }
 }
