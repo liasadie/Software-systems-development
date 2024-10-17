@@ -28,17 +28,12 @@ public class Subject implements Delivery{
     public String getDescription() {
         return description;
     }
-    public String setTutor(String tutor) {
-        this.tutor = tutor;
-    }
     public String getTutor(String tutor) {
         return tutor;
     }
     public String getRoom(String room) {
         return room;
     }
-    public String setRoom(String room) {
-        this.room = room;
-    }
+
 }
 
